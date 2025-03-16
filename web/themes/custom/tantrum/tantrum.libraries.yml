@@ -2,6 +2,9 @@
 global:
   js:
     js/tantrum.js: {}
+    js/header.js: {}
+    js/vendor/uikit/uikit.min.js: { minified: true }
+    js/vendor/uikit/uikit-icons.min.js: { minified: true }
   css:
     base:
       css/base/elements.css: {}
@@ -22,3 +25,5 @@ global:
       css/layout/layout.css: {}
     theme:
       css/theme/print.css: { media: print }
+      css/style.css: {}
+

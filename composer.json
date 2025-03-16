@@ -20,6 +20,7 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
+        "drupal/twig_tweak": "^3.4",
         "drush/drush": "^13.3"
     },
     "conflict": {
