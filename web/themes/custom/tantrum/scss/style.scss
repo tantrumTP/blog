@@ -1,0 +1,21 @@
+// Sobrescribe variables antes de importar UIkit.
+@import "_variables.scss";
+
+// Importa las variables y mixins de UIkit.
+@import "../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+
+// Sobrescribe mixins si es necesario.
+@mixin hook-card {
+    color: #000;
+}
+
+// Importa el núcleo de UIkit.
+@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+
+// Tus estilos personalizados.
+body {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+@import "components/_header.scss";

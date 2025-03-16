@@ -1,0 +1,70 @@
+{% if page.header %}
+	<header class="main-header">
+		<nav class="uk-navbar-container tantrum-navbar-container">
+			<div class="uk-container uk-container-large">
+				<div uk-navbar>
+					{% if page.header.sitebranding %}
+						<div class="uk-navbar-left">
+							{{ page.header.sitebranding }}
+						</div>
+					{% endif %}
+					{% if page.header.main_navigation %}
+						<div class="uk-navbar-right">
+							{{ page.header.main_navigation }}
+						</div>
+					{% endif %}
+					{# <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#"></a>
+                    </div> #}
+				</div>
+			</div>
+		</nav>
+	</header>
+{% endif %}
+
+<div class="main-container">
+	<div class="breadcrumb">
+		{{ page.breadcrumb }}
+	</div>
+
+	<div class="page-top">
+		{{ page.pagetop }}
+	</div>
+
+	<div class="layout-container">
+		<aside class="sidebar-first">
+			{{ page.sidebarfirst }}
+		</aside>
+
+		<main role="main">
+			<a id="main-content" tabindex="-1"></a>
+			{{ page.content }}
+		</main>
+
+		<aside class="sidebar-second">
+			{{ page.sidebarsecond }}
+		</aside>
+	</div>
+
+	<div class="page-bottom">
+		{{ page.pagebottom }}
+	</div>
+</div>
+
+<footer>
+	{{ page.footer }}
+</footer>

@@ -8,13 +8,10 @@ libraries:
   - tantrum/global
 regions:
   header: 'Header'
-  primary_menu: 'Primary menu'
-  secondary_menu: 'Secondary menu'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
-  featured: 'Featured'
+  pagetop: 'Page top'
   breadcrumb: 'Breadcrumb'
+  sidebarfirst: 'Sidebar first'
   content: 'Content'
-  sidebar_first: 'Sidebar first'
-  sidebar_second: 'Sidebar second'
+  sidebarsecond: 'Sidebar second'
+  pagebottom: 'Page bottom'
   footer: 'Footer'

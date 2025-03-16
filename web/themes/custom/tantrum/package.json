@@ -2,9 +2,23 @@
   "name": "tantrum",
   "private": true,
   "scripts": {
-    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'"
+    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'",
+    "gulp": "gulp"
   },
   "devDependencies": {
-    "livereload": "^0.9.3"
+    "gulp": "^5.0.0",
+    "gulp-copy": "^5.0.0",
+    "gulp-sass": "^6.0.1",
+    "livereload": "^0.9.3",
+    "sass": "^1.85.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "uikit": "^3.23.2"
   }
 }
